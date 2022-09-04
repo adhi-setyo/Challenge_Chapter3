@@ -8,12 +8,13 @@ class App {
     companion object{
         @JvmStatic
         fun main(args: Array<String>) {
-
+            App().run()
         }
     }
 
     private fun run() {
         printHeader()
+        input()
     }
 
     private fun printHeader(){
